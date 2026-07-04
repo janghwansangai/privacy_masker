@@ -25,6 +25,10 @@
   - `.github/workflows/deploy.yml` 파일 생성하여 코드를 올리면(Push) 자동으로 빌드 및 배포되도록 구축
   - `vite.config.ts`에 배포 경로를 위한 `base: './'` 옵션 추가
   - Token 권한(workflow scope) 문제 해결 후 최종적으로 `janghwansangai.github.io/privacy_masker/` 정식 배포 성공
+- [x] **최종 디테일 보완 (Phase 2)**:
+  - 첫 화면에 신뢰감을 주는 '🧑‍🏫 현직 교사가 만들었어요' 배지 디자인 추가
+  - 하단 Footer 영역의 라이선스 저작권 표기를 `hwansan.kr`로 명확하게 수정
+  - 불필요한 GitHub 저장소 이동 링크를 모두 제거하여 사용자 동선 단순화 및 깔끔한 UI 완성
 
 ---
 
