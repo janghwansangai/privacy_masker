@@ -17,7 +17,6 @@ function App() {
         </div>
         <nav className="hidden md:flex gap-10 text-xl font-semibold text-slate-500">
           <a href="#features" className="hover:text-blue-800 transition">특징</a>
-          <a href={APP_CONFIG.githubRepo} className="hover:text-blue-800 transition" target="_blank" rel="noreferrer">GitHub</a>
         </nav>
       </header>
 
@@ -144,15 +143,12 @@ function App() {
 
       {/* Footer */}
       <footer className="bg-slate-900 py-16 text-center text-slate-400 text-lg">
-        <div className="max-w-[1600px] mx-auto px-8 flex flex-col md:flex-row justify-between items-center gap-6">
+        <div className="max-w-[1600px] mx-auto px-8 flex flex-col md:flex-row justify-center items-center gap-6">
           <div className="flex items-center gap-3">
             <div className="w-8 h-8 bg-slate-800 text-slate-300 rounded-md flex items-center justify-center font-black text-sm">
               DP
             </div>
             <span>&copy; 2026 hwansan.kr. All rights reserved.</span>
-          </div>
-          <div className="flex gap-8 font-bold">
-            <a href={APP_CONFIG.githubRepo} className="hover:text-white transition">GitHub 저장소</a>
           </div>
         </div>
       </footer>
