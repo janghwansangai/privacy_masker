@@ -5,8 +5,8 @@ export const APP_CONFIG = {
   name: "문서 개인정보 마스킹 도구",
   description: "100% 오프라인으로 작동하는 안전한 개인정보 비식별화 솔루션",
   currentVersion: "v1.0.0",
-  windowsDownloadUrl: "/downloads/pdf_masker.exe", // Windows 다운로드 링크
-  macDownloadUrl: "/downloads/pdf_masker.dmg", // Mac 다운로드 링크
+  windowsDownloadUrl: "./downloads/pdf_masker.exe", // Windows 다운로드 링크
+  macDownloadUrl: "./downloads/pdf_masker.dmg", // Mac 다운로드 링크
   features: [
     {
       title: "100% 오프라인 작동",
