@@ -24,6 +24,9 @@ function App() {
       {/* Hero Section */}
       <main className="max-w-[1600px] mx-auto px-8 py-16 md:py-24 flex flex-col items-center justify-center gap-20 text-center">
         <div className="space-y-10 animate-fade-in-up flex flex-col items-center">
+          <div className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-blue-100 text-blue-800 font-bold text-lg lg:text-xl shadow-sm mb-2 border border-blue-200">
+            <span>🧑‍🏫 현직 교사가 만들었어요. 안심하고 사용하세요.</span>
+          </div>
           <h1 className="text-6xl lg:text-7xl font-extrabold leading-[1.15] text-slate-900 tracking-tight">
             문서 개인정보 <span className="text-blue-800">마스킹 도구</span>
           </h1>
@@ -146,7 +149,7 @@ function App() {
             <div className="w-8 h-8 bg-slate-800 text-slate-300 rounded-md flex items-center justify-center font-black text-sm">
               DP
             </div>
-            <span>&copy; 2026 {APP_CONFIG.name}. All rights reserved.</span>
+            <span>&copy; 2026 hwansan.kr. All rights reserved.</span>
           </div>
           <div className="flex gap-8 font-bold">
             <a href={APP_CONFIG.githubRepo} className="hover:text-white transition">GitHub 저장소</a>
