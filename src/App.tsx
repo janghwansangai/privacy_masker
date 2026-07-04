@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { APP_CONFIG } from './constants';
 import { ArrowDownTrayIcon, ShieldCheckIcon, DocumentTextIcon, CogIcon } from '@heroicons/react/24/outline';
 
