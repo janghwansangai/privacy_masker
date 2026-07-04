@@ -148,7 +148,7 @@ function App() {
             <div className="w-8 h-8 bg-slate-800 text-slate-300 rounded-md flex items-center justify-center font-black text-sm">
               DP
             </div>
-            <span>&copy; 2026 hwansan.kr. All rights reserved.</span>
+            <span>&copy; 2026 hwansang.kr. All rights reserved.</span>
           </div>
         </div>
       </footer>
